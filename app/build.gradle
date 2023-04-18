@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'org.techtown.doitmission_7'
+    namespace 'org.techtown.doitmission_8'
     compileSdk 33
 
     defaultConfig {
-        applicationId "org.techtown.doitmission_7"
+        applicationId "org.techtown.doitmission_8"
         minSdk 24
         targetSdk 33
         versionCode 1
