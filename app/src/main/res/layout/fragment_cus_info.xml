@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".cusInfoFragment" >
+
+    <TextView
+        android:id="@+id/textInputInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="고객정보 입력"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:maxLength="10"
+        android:hint="이름"
+        android:privateImeOptions="defaultInputmode=korean"
+        android:textSize="22sp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/button_outline"
+        android:layout_marginStart="10dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextAge"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:ems="3"
+        android:maxLength="3"
+        android:hint = "나이"
+        android:paddingLeft="10dp"
+        android:textSize="22sp"
+        android:background="@drawable/button_outline"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonBirth"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_outline"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:text="생년월일"
+        android:paddingLeft="10dp"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_outline"
+        android:text="저장" />
+</LinearLayout>
